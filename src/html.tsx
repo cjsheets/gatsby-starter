@@ -1,8 +1,8 @@
 /* tslint:disable no-var-requires */
 /* tslint:disable no-console */
 
-import * as React from "react";
-import Helmet from "react-helmet";
+import * as React from 'react';
+import Helmet from 'react-helmet';
 
 // Load production style
 let styles: string;

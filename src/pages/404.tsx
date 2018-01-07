@@ -1,5 +1,5 @@
-import * as React from "react";
-import { Header, Icon, Grid } from "semantic-ui-react";
+import * as React from 'react';
+import { Header, Icon, Grid } from 'semantic-ui-react';
 
 export default () =>
   <Grid centered verticalAlign="middle"

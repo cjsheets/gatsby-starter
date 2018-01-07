@@ -1,12 +1,12 @@
-import Link from "gatsby-link";
-import * as React from "react";
-import HeaderMenu from "../components/HeaderMenu/HeaderMenu";
-import SidebarMenu from "../components/SidebarMenu/SidebarMenu";
-import { Segment, Icon, Container, Sidebar, Button } from "semantic-ui-react";
-import "../css/styles.css";
-import "../css/responsive.css";
-import "../css/semantic.min.css";
-import "prismjs/themes/prism-okaidia.css";
+import Link from 'gatsby-link';
+import * as React from 'react';
+import HeaderMenu from '../components/HeaderMenu/HeaderMenu';
+import SidebarMenu from '../components/SidebarMenu/SidebarMenu';
+import { Segment, Icon, Container, Sidebar, Button } from 'semantic-ui-react';
+import '../css/styles.css';
+import '../css/responsive.css';
+import '../css/semantic.min.css';
+import 'prismjs/themes/prism-okaidia.css';
 
 export const menuItems = [
   { name: "Home", path: "/", exact: true, icon: "home", inverted: true },
