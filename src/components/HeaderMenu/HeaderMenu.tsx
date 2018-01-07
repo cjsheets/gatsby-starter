@@ -18,7 +18,7 @@ export const HeaderMenu = ({ items, pathname, Link, inverted, dispatch }: IHeade
       <Menu.Item as="a" className="mobile only" icon="sidebar" onClick={() => dispatch(toggleSidebar())} />
       <Menu.Item className="mobile hidden"><Icon name="spy" size="big" /></Menu.Item>
       {items.map((item: any) => {
-        const active = (item.exact) ? pathname === item.path : startsWith(item.path, pathname);
+        const active = (item.exact) ? pathname === item.path : startsWith(pathname, item.path);
 
         return <Menu.Item
           as={Link}

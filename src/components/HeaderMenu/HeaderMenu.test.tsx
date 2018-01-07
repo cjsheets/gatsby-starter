@@ -49,6 +49,7 @@ describe('HeaderMenu component', () => {
         dispatch={dispatchStub}
       />
     );
+    console.log(wrapper.debug());
     expect(wrapper.find({ name: 'Blog' }).prop('active')).toBeTruthy();
   });
 
