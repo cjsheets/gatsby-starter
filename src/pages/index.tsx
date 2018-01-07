@@ -1,15 +1,9 @@
-import * as React from 'react';
 import Link from 'gatsby-link';
+import * as React from 'react';
+import { Button, Container, Grid, Header, Icon, Segment } from 'semantic-ui-react';
+
 import HeaderMenu from '../components/HeaderMenu/HeaderMenu';
 import { menuItems } from '../layouts';
-import {
-  Button,
-  Segment,
-  Container,
-  Grid,
-  Header,
-  Icon,
-} from 'semantic-ui-react';
 
 interface IndexPageProps {
   location: {

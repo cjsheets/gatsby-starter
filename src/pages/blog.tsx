@@ -1,12 +1,12 @@
-import * as React from 'react';
 import Link from 'gatsby-link';
-import { Header, Grid, Card, List, Container, Feed, Segment, Comment } from 'semantic-ui-react';
-import { MarkdownRemarkConnection, ImageSharp } from '../graphql-types';
+import * as React from 'react';
+import { Card, Comment, Container, Feed, Grid, Header, List, Segment } from 'semantic-ui-react';
+import BlogPagination from '../components/BlogPagination/BlogPagination';
 import BlogTitle from '../components/BlogTitle';
 import TagsCard from '../components/TagsCard/TagsCard';
-import BlogPagination from '../components/BlogPagination/BlogPagination';
+import { ImageSharp, MarkdownRemarkConnection } from '../graphql-types';
 
-interface BlogProps {
+interface IBlogProps {
   data: {
     tags: MarkdownRemarkConnection;
     posts: MarkdownRemarkConnection;
@@ -19,7 +19,7 @@ interface BlogProps {
   };
 }
 
-export default (props: BlogProps) => {
+export default (props: IBlogProps) => {
   const tags = props.data.tags.group;
   const posts = props.data.posts.edges;
   const { pathname } = props.location;
@@ -65,7 +65,7 @@ export default (props: BlogProps) => {
             fluid
             image={{
               src: cover.responsiveResolution.src,
-              srcSet: cover.responsiveResolution.srcSet,
+              srcSet: cover.responsiveResolution.srcSet
             }}
             header={frontmatter.title}
             extra={extra}
@@ -83,7 +83,7 @@ export default (props: BlogProps) => {
 
       {/* Content */}
       <Segment vertical>
-        <Grid padded style={{ justifyContent: "space-around" }}>
+        <Grid padded style={{ justifyContent: 'space-around' }}>
           <div style={{ maxWidth: 600 }}>
             {Posts}
             <Segment vertical textAlign="center">
