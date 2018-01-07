@@ -1,5 +1,5 @@
-import * as React from "react";
-import Blog from "../pages/blog";
+import * as React from 'react';
+import Blog from '../pages/blog';
 
 export default Blog;
 

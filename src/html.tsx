@@ -1,27 +1,27 @@
 /* tslint:disable no-var-requires */
 /* tslint:disable no-console */
 
-import * as React from "react";
-import Helmet from "react-helmet";
+import * as React from 'react';
+import Helmet from 'react-helmet';
 
 // Load production style
 let styles: string;
 if (process.env.NODE_ENV === `production`) {
   try {
-    styles = require("!raw-loader!../public/styles.css");
+    styles = require('!raw-loader!../public/styles.css');
   } catch (err) {
     console.log(err);
   }
 }
 
-interface HtmlProps {
+interface IHtmlProps {
   body: any;
   postBodyComponents: any;
   headComponents: any;
 }
 
 // Use `module.exports` to be compliante with `webpack-require` import method
-module.exports = (props: HtmlProps) => {
+module.exports = (props: IHtmlProps) => {
   const head = Helmet.rewind();
 
   const css = (process.env.NODE_ENV === `production`) ?

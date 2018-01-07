@@ -1,7 +1,7 @@
-import * as React from "react";
-import { GatsbyLinkProps } from "gatsby-link";
+import { GatsbyLinkProps } from 'gatsby-link';
+import * as React from 'react';
 
-export interface MenuItem {
+export interface IMenuItem {
   name: string;
   path: string;
   exact: boolean;
@@ -9,7 +9,7 @@ export interface MenuItem {
   inverted?: boolean;
 }
 
-export interface MenuProps extends React.HTMLProps<HTMLDivElement> {
+export interface IMenuProps extends React.HTMLProps<HTMLDivElement> {
   items: MenuItem[];
   pathname: string;
   Link: React.ComponentClass<GatsbyLinkProps> | any;

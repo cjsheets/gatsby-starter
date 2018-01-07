@@ -8,11 +8,9 @@
     "start": "gatsby develop",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "lint": "npm run lint:ts && npm run lint:md && npm run lint:js && npm run lint:css",
+    "lint": "npm run lint:ts && npm run lint:md",
     "lint:ts": "tslint \"./src/**/*.ts\" \"./src/**/*.tsx\"",
     "lint:md": "remark .",
-    "lint:css": "stylelint \"src/**/*.css\"",
-    "lint:scss": "stylelint src/**/*.scss --syntax scss",
     "test": "npm run lint && jest",
     "test:watch": "jest --watch",
     "generate": "plop --plopfile ./generators/plopfile.js",
@@ -69,7 +67,7 @@
     "remark-cli": "4.0.0",
     "remark-preset-lint-recommended": "3.0.1",
     "ts-jest": "22.0.1",
-    "ts-lint": "4.5.1"
+    "tslint": "5.8.0"
   },
   "keywords": [
     "gatsby",

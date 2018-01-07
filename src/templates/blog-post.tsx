@@ -1,17 +1,17 @@
-import * as React from "react";
-import Link from "gatsby-link";
-import { Header, Container, Segment, Icon, Label, Button, Grid, Card, Image, Item, Comment } from "semantic-ui-react";
-import { MarkdownRemark, ImageSharp, MarkdownRemarkConnection } from "../graphql-types";
-import BlogTitle from "../components/BlogTitle";
+import Link from 'gatsby-link';
+import * as React from 'react';
+import { Button, Card, Comment, Container, Grid, Header, Icon, Image, Item, Label, Segment } from 'semantic-ui-react';
+import BlogTitle from '../components/BlogTitle';
+import { ImageSharp, MarkdownRemark, MarkdownRemarkConnection } from '../graphql-types';
 
-interface BlogPostProps {
+interface IBlogPostProps {
   data: {
     post: MarkdownRemark;
     recents: MarkdownRemarkConnection;
   };
 }
 
-export default (props: BlogPostProps) => {
+export default (props: IBlogPostProps) => {
   const { frontmatter, html, timeToRead } = props.data.post;
   const avatar = frontmatter.author.avatar.children[0] as ImageSharp;
 
@@ -21,7 +21,7 @@ export default (props: BlogPostProps) => {
   const recents = props.data.recents.edges
     .map(({ node }) => {
       const recentAvatar = node.frontmatter.author.avatar.children[0] as ImageSharp;
-      const recentCover = node.frontmatter.image.children[0] as ImageSharp;
+      const _recentCover = node.frontmatter.image.children[0] as ImageSharp;
       const extra = (
         <Comment.Group>
           <Comment>
@@ -42,12 +42,12 @@ export default (props: BlogPostProps) => {
       );
 
       return (
-        <div key={node.fields.slug} style={{paddingBottom: "1em"}}>
+        <div key={node.fields.slug} style={{paddingBottom: '1em'}}>
           <Card as={Link}
             to={node.fields.slug}
             image={{
-              src: recentCover.responsiveResolution.src,
-              srcSet: recentCover.responsiveResolution.srcSet,
+              src: _recentCover.responsiveResolution.src,
+              srcSet: _recentCover.responsiveResolution.srcSet
             }}
             header={node.frontmatter.title}
             extra={extra}
@@ -57,10 +57,11 @@ export default (props: BlogPostProps) => {
     });
 
   const recentCover = frontmatter.image.children[0] as ImageSharp;
+
   return (
     <Container>
       <BlogTitle />
-      <Segment vertical style={{ border: "none" }}>
+      <Segment vertical style={{ border: 'none' }}>
         <Item.Group>
           <Item>
             <Item.Image size="tiny" shape="circular"
@@ -82,9 +83,9 @@ export default (props: BlogPostProps) => {
           fluid
         />
       <Segment vertical
-        style={{ border: "none" }}
+        style={{ border: 'none' }}
         dangerouslySetInnerHTML={{
-          __html: html,
+          __html: html
         }}
       />
       <Segment vertical>
