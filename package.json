@@ -11,7 +11,7 @@
     "lint": "npm run lint:ts && npm run lint:md",
     "lint:ts": "tslint \"./src/**/*.ts\" \"./src/**/*.tsx\"",
     "lint:md": "remark .",
-    "test": "npm run lint && jest",
+    "test": "npm run lint && jest && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "test:watch": "jest --watch",
     "generate": "plop --plopfile ./generators/plopfile.js",
     "graphql-types": "gql-gen --url http://localhost:8000/___graphql --template typescript --out ./src/graphql-types.d.ts"
@@ -57,6 +57,7 @@
     "@types/react-router-dom": "4.0.8",
     "@types/react-test-renderer": "16.0.0",
     "@types/webpack-env": "1.13.1",
+    "coveralls": "^3.0.0",
     "enzyme": "3.0.0",
     "enzyme-adapter-react-16": "1.0.0",
     "jest": "22.0.4",
