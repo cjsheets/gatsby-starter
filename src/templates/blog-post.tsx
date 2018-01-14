@@ -21,7 +21,7 @@ export default (props: IBlogPostProps) => {
   const recents = props.data.recents.edges
     .map(({ node }) => {
       const recentAvatar = node.frontmatter.author.avatar.children[0] as ImageSharp;
-      const _recentCover = node.frontmatter.image.children[0] as ImageSharp;
+      const recentCover = node.frontmatter.image.children[0] as ImageSharp;
       const extra = (
         <Comment.Group>
           <Comment>
@@ -46,8 +46,8 @@ export default (props: IBlogPostProps) => {
           <Card as={Link}
             to={node.fields.slug}
             image={{
-              src: _recentCover.responsiveResolution.src,
-              srcSet: _recentCover.responsiveResolution.srcSet
+              src: recentCover.responsiveResolution.src,
+              srcSet: recentCover.responsiveResolution.srcSet
             }}
             header={node.frontmatter.title}
             extra={extra}
@@ -57,7 +57,6 @@ export default (props: IBlogPostProps) => {
     });
 
   const recentCover = frontmatter.image.children[0] as ImageSharp;
-
   return (
     <Container>
       <BlogTitle />

@@ -10,7 +10,7 @@ export interface IMenuItem {
 }
 
 export interface IMenuProps extends React.HTMLProps<HTMLDivElement> {
-  items: MenuItem[];
+  items: IMenuItem[];
   pathname: string;
   Link: React.ComponentClass<GatsbyLinkProps> | any;
 }

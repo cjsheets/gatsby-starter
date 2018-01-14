@@ -8,22 +8,22 @@ ShallowWrapper {
     Link={[Function]}
     tag="tag01"
     tags={
-      Array [
-        Object {
-          "fieldValue": "tag01",
-          "totalCount": 2,
-        },
-        Object {
-          "fieldValue": "tag02",
-          "totalCount": 4,
-        },
-        Object {
-          "fieldValue": "tag03",
-          "totalCount": 6,
-        },
-      ]
+        Array [
+            Object {
+              "fieldValue": "tag01",
+              "totalCount": 2,
+            },
+            Object {
+              "fieldValue": "tag02",
+              "totalCount": 4,
+            },
+            Object {
+              "fieldValue": "tag03",
+              "totalCount": 6,
+            },
+          ]
     }
-  />,
+/>,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -39,77 +39,77 @@ ShallowWrapper {
       "children": Array [
         <CardContent>
           <CardHeader>
-            Tags
+                    Tags
           </CardHeader>
-        </CardContent>,
+</CardContent>,
         <CardContent>
           <List>
-            <ListItem
-              as="a"
-            >
-              <ListIcon
-                color="blue"
-                name="tag"
-              />
-              <ListContent
-                style={
-                  Object {
-                    "fontWeight": "700",
-                  }
-                }
-              >
-                <LinkStub
-                  to="/blog/tags/tag01/"
-                >
-                  tag01
-                   (
-                  2
-                  )
-                </LinkStub>
-              </ListContent>
-            </ListItem>
-            <ListItem
-              as="a"
-            >
-              <ListIcon
-                color={null}
-                name="tag"
-              />
-              <ListContent
-                style={null}
-              >
-                <LinkStub
-                  to="/blog/tags/tag02/"
-                >
-                  tag02
-                   (
-                  4
-                  )
-                </LinkStub>
-              </ListContent>
-            </ListItem>
-            <ListItem
-              as="a"
-            >
-              <ListIcon
-                color={null}
-                name="tag"
-              />
-              <ListContent
-                style={null}
-              >
-                <LinkStub
-                  to="/blog/tags/tag03/"
-                >
-                  tag03
-                   (
-                  6
-                  )
-                </LinkStub>
-              </ListContent>
-            </ListItem>
+                    <ListItem
+                              as="a"
+                    >
+                              <ListIcon
+                                        color="blue"
+                                        name="tag"
+                              />
+                              <ListContent
+                                        style={
+                                                  Object {
+                                                            "fontWeight": "700",
+                                                          }
+                                        }
+                              >
+                                        <LinkStub
+                                                  to="/blog/tags/tag01/"
+                                        >
+                                                  tag01
+                                                   (
+                                                  2
+                                                  )
+                                        </LinkStub>
+                              </ListContent>
+                    </ListItem>
+                    <ListItem
+                              as="a"
+                    >
+                              <ListIcon
+                                        color={null}
+                                        name="tag"
+                              />
+                              <ListContent
+                                        style={null}
+                              >
+                                        <LinkStub
+                                                  to="/blog/tags/tag02/"
+                                        >
+                                                  tag02
+                                                   (
+                                                  4
+                                                  )
+                                        </LinkStub>
+                              </ListContent>
+                    </ListItem>
+                    <ListItem
+                              as="a"
+                    >
+                              <ListIcon
+                                        color={null}
+                                        name="tag"
+                              />
+                              <ListContent
+                                        style={null}
+                              >
+                                        <LinkStub
+                                                  to="/blog/tags/tag03/"
+                                        >
+                                                  tag03
+                                                   (
+                                                  6
+                                                  )
+                                        </LinkStub>
+                              </ListContent>
+                    </ListItem>
           </List>
-        </CardContent>,
+</CardContent>,
       ],
     },
     "ref": null,
@@ -121,7 +121,7 @@ ShallowWrapper {
         "props": Object {
           "children": <CardHeader>
             Tags
-          </CardHeader>,
+</CardHeader>,
         },
         "ref": null,
         "rendered": Object {
@@ -144,70 +144,70 @@ ShallowWrapper {
         "props": Object {
           "children": <List>
             <ListItem
-              as="a"
+                        as="a"
             >
-              <ListIcon
-                color="blue"
-                name="tag"
-              />
-              <ListContent
-                style={
-                  Object {
-                    "fontWeight": "700",
-                  }
-                }
-              >
-                <LinkStub
-                  to="/blog/tags/tag01/"
-                >
-                  tag01
-                   (
-                  2
-                  )
-                </LinkStub>
-              </ListContent>
+                        <ListIcon
+                                    color="blue"
+                                    name="tag"
+                        />
+                        <ListContent
+                                    style={
+                                                Object {
+                                                            "fontWeight": "700",
+                                                          }
+                                    }
+                        >
+                                    <LinkStub
+                                                to="/blog/tags/tag01/"
+                                    >
+                                                tag01
+                                                 (
+                                                2
+                                                )
+                                    </LinkStub>
+                        </ListContent>
             </ListItem>
             <ListItem
-              as="a"
+                        as="a"
             >
-              <ListIcon
-                color={null}
-                name="tag"
-              />
-              <ListContent
-                style={null}
-              >
-                <LinkStub
-                  to="/blog/tags/tag02/"
-                >
-                  tag02
-                   (
-                  4
-                  )
-                </LinkStub>
-              </ListContent>
+                        <ListIcon
+                                    color={null}
+                                    name="tag"
+                        />
+                        <ListContent
+                                    style={null}
+                        >
+                                    <LinkStub
+                                                to="/blog/tags/tag02/"
+                                    >
+                                                tag02
+                                                 (
+                                                4
+                                                )
+                                    </LinkStub>
+                        </ListContent>
             </ListItem>
             <ListItem
-              as="a"
+                        as="a"
             >
-              <ListIcon
-                color={null}
-                name="tag"
-              />
-              <ListContent
-                style={null}
-              >
-                <LinkStub
-                  to="/blog/tags/tag03/"
-                >
-                  tag03
-                   (
-                  6
-                  )
-                </LinkStub>
-              </ListContent>
+                        <ListIcon
+                                    color={null}
+                                    name="tag"
+                        />
+                        <ListContent
+                                    style={null}
+                        >
+                                    <LinkStub
+                                                to="/blog/tags/tag03/"
+                                    >
+                                                tag03
+                                                 (
+                                                6
+                                                )
+                                    </LinkStub>
+                        </ListContent>
             </ListItem>
-          </List>,
+</List>,
         },
         "ref": null,
         "rendered": Object {
@@ -218,68 +218,68 @@ ShallowWrapper {
             "children": Array [
               <ListItem
                 as="a"
-              >
+>
                 <ListIcon
-                  color="blue"
-                  name="tag"
+                                color="blue"
+                                name="tag"
                 />
                 <ListContent
-                  style={
-                    Object {
-                      "fontWeight": "700",
-                    }
-                  }
+                                style={
+                                                Object {
+                                                                "fontWeight": "700",
+                                                              }
+                                }
                 >
-                  <LinkStub
-                    to="/blog/tags/tag01/"
-                  >
-                    tag01
-                     (
-                    2
-                    )
-                  </LinkStub>
+                                <LinkStub
+                                                to="/blog/tags/tag01/"
+                                >
+                                                tag01
+                                                 (
+                                                2
+                                                )
+                                </LinkStub>
                 </ListContent>
-              </ListItem>,
+</ListItem>,
               <ListItem
                 as="a"
-              >
+>
                 <ListIcon
-                  color={null}
-                  name="tag"
+                                color={null}
+                                name="tag"
                 />
                 <ListContent
-                  style={null}
+                                style={null}
                 >
-                  <LinkStub
-                    to="/blog/tags/tag02/"
-                  >
-                    tag02
-                     (
-                    4
-                    )
-                  </LinkStub>
+                                <LinkStub
+                                                to="/blog/tags/tag02/"
+                                >
+                                                tag02
+                                                 (
+                                                4
+                                                )
+                                </LinkStub>
                 </ListContent>
-              </ListItem>,
+</ListItem>,
               <ListItem
                 as="a"
-              >
+>
                 <ListIcon
-                  color={null}
-                  name="tag"
+                                color={null}
+                                name="tag"
                 />
                 <ListContent
-                  style={null}
+                                style={null}
                 >
-                  <LinkStub
-                    to="/blog/tags/tag03/"
-                  >
-                    tag03
-                     (
-                    6
-                    )
-                  </LinkStub>
+                                <LinkStub
+                                                to="/blog/tags/tag03/"
+                                >
+                                                tag03
+                                                 (
+                                                6
+                                                )
+                                </LinkStub>
                 </ListContent>
-              </ListItem>,
+</ListItem>,
             ],
           },
           "ref": null,
@@ -294,23 +294,23 @@ ShallowWrapper {
                   <ListIcon
                     color="blue"
                     name="tag"
-                  />,
+/>,
                   <ListContent
                     style={
-                      Object {
-                        "fontWeight": "700",
-                      }
+                                        Object {
+                                                            "fontWeight": "700",
+                                                          }
                     }
-                  >
+>
                     <LinkStub
-                      to="/blog/tags/tag01/"
+                                        to="/blog/tags/tag01/"
                     >
-                      tag01
-                       (
-                      2
-                      )
+                                        tag01
+                                         (
+                                        2
+                                        )
                     </LinkStub>
-                  </ListContent>,
+</ListContent>,
                 ],
               },
               "ref": null,
@@ -334,12 +334,12 @@ ShallowWrapper {
                   "props": Object {
                     "children": <LinkStub
                       to="/blog/tags/tag01/"
-                    >
+>
                       tag01
                        (
                       2
                       )
-                    </LinkStub>,
+</LinkStub>,
                     "style": Object {
                       "fontWeight": "700",
                     },
@@ -382,19 +382,19 @@ ShallowWrapper {
                   <ListIcon
                     color={null}
                     name="tag"
-                  />,
+/>,
                   <ListContent
                     style={null}
-                  >
+>
                     <LinkStub
-                      to="/blog/tags/tag02/"
+                                        to="/blog/tags/tag02/"
                     >
-                      tag02
-                       (
-                      4
-                      )
+                                        tag02
+                                         (
+                                        4
+                                        )
                     </LinkStub>
-                  </ListContent>,
+</ListContent>,
                 ],
               },
               "ref": null,
@@ -418,12 +418,12 @@ ShallowWrapper {
                   "props": Object {
                     "children": <LinkStub
                       to="/blog/tags/tag02/"
-                    >
+>
                       tag02
                        (
                       4
                       )
-                    </LinkStub>,
+</LinkStub>,
                     "style": null,
                   },
                   "ref": null,
@@ -464,19 +464,19 @@ ShallowWrapper {
                   <ListIcon
                     color={null}
                     name="tag"
-                  />,
+/>,
                   <ListContent
                     style={null}
-                  >
+>
                     <LinkStub
-                      to="/blog/tags/tag03/"
+                                        to="/blog/tags/tag03/"
                     >
-                      tag03
-                       (
-                      6
-                      )
+                                        tag03
+                                         (
+                                        6
+                                        )
                     </LinkStub>
-                  </ListContent>,
+</ListContent>,
                 ],
               },
               "ref": null,
@@ -500,12 +500,12 @@ ShallowWrapper {
                   "props": Object {
                     "children": <LinkStub
                       to="/blog/tags/tag03/"
-                    >
+>
                       tag03
                        (
                       6
                       )
-                    </LinkStub>,
+</LinkStub>,
                     "style": null,
                   },
                   "ref": null,
@@ -553,77 +553,77 @@ ShallowWrapper {
         "children": Array [
           <CardContent>
             <CardHeader>
-              Tags
+                        Tags
             </CardHeader>
-          </CardContent>,
+</CardContent>,
           <CardContent>
             <List>
-              <ListItem
-                as="a"
-              >
-                <ListIcon
-                  color="blue"
-                  name="tag"
-                />
-                <ListContent
-                  style={
-                    Object {
-                      "fontWeight": "700",
-                    }
-                  }
-                >
-                  <LinkStub
-                    to="/blog/tags/tag01/"
-                  >
-                    tag01
-                     (
-                    2
-                    )
-                  </LinkStub>
-                </ListContent>
-              </ListItem>
-              <ListItem
-                as="a"
-              >
-                <ListIcon
-                  color={null}
-                  name="tag"
-                />
-                <ListContent
-                  style={null}
-                >
-                  <LinkStub
-                    to="/blog/tags/tag02/"
-                  >
-                    tag02
-                     (
-                    4
-                    )
-                  </LinkStub>
-                </ListContent>
-              </ListItem>
-              <ListItem
-                as="a"
-              >
-                <ListIcon
-                  color={null}
-                  name="tag"
-                />
-                <ListContent
-                  style={null}
-                >
-                  <LinkStub
-                    to="/blog/tags/tag03/"
-                  >
-                    tag03
-                     (
-                    6
-                    )
-                  </LinkStub>
-                </ListContent>
-              </ListItem>
+                        <ListItem
+                                    as="a"
+                        >
+                                    <ListIcon
+                                                color="blue"
+                                                name="tag"
+                                    />
+                                    <ListContent
+                                                style={
+                                                            Object {
+                                                                        "fontWeight": "700",
+                                                                      }
+                                                }
+                                    >
+                                                <LinkStub
+                                                            to="/blog/tags/tag01/"
+                                                >
+                                                            tag01
+                                                             (
+                                                            2
+                                                            )
+                                                </LinkStub>
+                                    </ListContent>
+                        </ListItem>
+                        <ListItem
+                                    as="a"
+                        >
+                                    <ListIcon
+                                                color={null}
+                                                name="tag"
+                                    />
+                                    <ListContent
+                                                style={null}
+                                    >
+                                                <LinkStub
+                                                            to="/blog/tags/tag02/"
+                                                >
+                                                            tag02
+                                                             (
+                                                            4
+                                                            )
+                                                </LinkStub>
+                                    </ListContent>
+                        </ListItem>
+                        <ListItem
+                                    as="a"
+                        >
+                                    <ListIcon
+                                                color={null}
+                                                name="tag"
+                                    />
+                                    <ListContent
+                                                style={null}
+                                    >
+                                                <LinkStub
+                                                            to="/blog/tags/tag03/"
+                                                >
+                                                            tag03
+                                                             (
+                                                            6
+                                                            )
+                                                </LinkStub>
+                                    </ListContent>
+                        </ListItem>
             </List>
-          </CardContent>,
+</CardContent>,
         ],
       },
       "ref": null,
@@ -635,7 +635,7 @@ ShallowWrapper {
           "props": Object {
             "children": <CardHeader>
               Tags
-            </CardHeader>,
+</CardHeader>,
           },
           "ref": null,
           "rendered": Object {
@@ -658,70 +658,70 @@ ShallowWrapper {
           "props": Object {
             "children": <List>
               <ListItem
-                as="a"
+                            as="a"
               >
-                <ListIcon
-                  color="blue"
-                  name="tag"
-                />
-                <ListContent
-                  style={
-                    Object {
-                      "fontWeight": "700",
-                    }
-                  }
-                >
-                  <LinkStub
-                    to="/blog/tags/tag01/"
-                  >
-                    tag01
-                     (
-                    2
-                    )
-                  </LinkStub>
-                </ListContent>
+                            <ListIcon
+                                          color="blue"
+                                          name="tag"
+                            />
+                            <ListContent
+                                          style={
+                                                        Object {
+                                                                      "fontWeight": "700",
+                                                                    }
+                                          }
+                            >
+                                          <LinkStub
+                                                        to="/blog/tags/tag01/"
+                                          >
+                                                        tag01
+                                                         (
+                                                        2
+                                                        )
+                                          </LinkStub>
+                            </ListContent>
               </ListItem>
               <ListItem
-                as="a"
+                            as="a"
               >
-                <ListIcon
-                  color={null}
-                  name="tag"
-                />
-                <ListContent
-                  style={null}
-                >
-                  <LinkStub
-                    to="/blog/tags/tag02/"
-                  >
-                    tag02
-                     (
-                    4
-                    )
-                  </LinkStub>
-                </ListContent>
+                            <ListIcon
+                                          color={null}
+                                          name="tag"
+                            />
+                            <ListContent
+                                          style={null}
+                            >
+                                          <LinkStub
+                                                        to="/blog/tags/tag02/"
+                                          >
+                                                        tag02
+                                                         (
+                                                        4
+                                                        )
+                                          </LinkStub>
+                            </ListContent>
               </ListItem>
               <ListItem
-                as="a"
+                            as="a"
               >
-                <ListIcon
-                  color={null}
-                  name="tag"
-                />
-                <ListContent
-                  style={null}
-                >
-                  <LinkStub
-                    to="/blog/tags/tag03/"
-                  >
-                    tag03
-                     (
-                    6
-                    )
-                  </LinkStub>
-                </ListContent>
+                            <ListIcon
+                                          color={null}
+                                          name="tag"
+                            />
+                            <ListContent
+                                          style={null}
+                            >
+                                          <LinkStub
+                                                        to="/blog/tags/tag03/"
+                                          >
+                                                        tag03
+                                                         (
+                                                        6
+                                                        )
+                                          </LinkStub>
+                            </ListContent>
               </ListItem>
-            </List>,
+</List>,
           },
           "ref": null,
           "rendered": Object {
@@ -732,68 +732,68 @@ ShallowWrapper {
               "children": Array [
                 <ListItem
                   as="a"
-                >
+>
                   <ListIcon
-                    color="blue"
-                    name="tag"
+                                    color="blue"
+                                    name="tag"
                   />
                   <ListContent
-                    style={
-                      Object {
-                        "fontWeight": "700",
-                      }
-                    }
+                                    style={
+                                                      Object {
+                                                                        "fontWeight": "700",
+                                                                      }
+                                    }
                   >
-                    <LinkStub
-                      to="/blog/tags/tag01/"
-                    >
-                      tag01
-                       (
-                      2
-                      )
-                    </LinkStub>
+                                    <LinkStub
+                                                      to="/blog/tags/tag01/"
+                                    >
+                                                      tag01
+                                                       (
+                                                      2
+                                                      )
+                                    </LinkStub>
                   </ListContent>
-                </ListItem>,
+</ListItem>,
                 <ListItem
                   as="a"
-                >
+>
                   <ListIcon
-                    color={null}
-                    name="tag"
+                                    color={null}
+                                    name="tag"
                   />
                   <ListContent
-                    style={null}
+                                    style={null}
                   >
-                    <LinkStub
-                      to="/blog/tags/tag02/"
-                    >
-                      tag02
-                       (
-                      4
-                      )
-                    </LinkStub>
+                                    <LinkStub
+                                                      to="/blog/tags/tag02/"
+                                    >
+                                                      tag02
+                                                       (
+                                                      4
+                                                      )
+                                    </LinkStub>
                   </ListContent>
-                </ListItem>,
+</ListItem>,
                 <ListItem
                   as="a"
-                >
+>
                   <ListIcon
-                    color={null}
-                    name="tag"
+                                    color={null}
+                                    name="tag"
                   />
                   <ListContent
-                    style={null}
+                                    style={null}
                   >
-                    <LinkStub
-                      to="/blog/tags/tag03/"
-                    >
-                      tag03
-                       (
-                      6
-                      )
-                    </LinkStub>
+                                    <LinkStub
+                                                      to="/blog/tags/tag03/"
+                                    >
+                                                      tag03
+                                                       (
+                                                      6
+                                                      )
+                                    </LinkStub>
                   </ListContent>
-                </ListItem>,
+</ListItem>,
               ],
             },
             "ref": null,
@@ -808,23 +808,23 @@ ShallowWrapper {
                     <ListIcon
                       color="blue"
                       name="tag"
-                    />,
+/>,
                     <ListContent
                       style={
-                        Object {
-                          "fontWeight": "700",
-                        }
+                                            Object {
+                                                                  "fontWeight": "700",
+                                                                }
                       }
-                    >
+>
                       <LinkStub
-                        to="/blog/tags/tag01/"
+                                            to="/blog/tags/tag01/"
                       >
-                        tag01
-                         (
-                        2
-                        )
+                                            tag01
+                                             (
+                                            2
+                                            )
                       </LinkStub>
-                    </ListContent>,
+</ListContent>,
                   ],
                 },
                 "ref": null,
@@ -848,12 +848,12 @@ ShallowWrapper {
                     "props": Object {
                       "children": <LinkStub
                         to="/blog/tags/tag01/"
-                      >
+>
                         tag01
                          (
                         2
                         )
-                      </LinkStub>,
+</LinkStub>,
                       "style": Object {
                         "fontWeight": "700",
                       },
@@ -896,19 +896,19 @@ ShallowWrapper {
                     <ListIcon
                       color={null}
                       name="tag"
-                    />,
+/>,
                     <ListContent
                       style={null}
-                    >
+>
                       <LinkStub
-                        to="/blog/tags/tag02/"
+                                            to="/blog/tags/tag02/"
                       >
-                        tag02
-                         (
-                        4
-                        )
+                                            tag02
+                                             (
+                                            4
+                                            )
                       </LinkStub>
-                    </ListContent>,
+</ListContent>,
                   ],
                 },
                 "ref": null,
@@ -932,12 +932,12 @@ ShallowWrapper {
                     "props": Object {
                       "children": <LinkStub
                         to="/blog/tags/tag02/"
-                      >
+>
                         tag02
                          (
                         4
                         )
-                      </LinkStub>,
+</LinkStub>,
                       "style": null,
                     },
                     "ref": null,
@@ -978,19 +978,19 @@ ShallowWrapper {
                     <ListIcon
                       color={null}
                       name="tag"
-                    />,
+/>,
                     <ListContent
                       style={null}
-                    >
+>
                       <LinkStub
-                        to="/blog/tags/tag03/"
+                                            to="/blog/tags/tag03/"
                       >
-                        tag03
-                         (
-                        6
-                        )
+                                            tag03
+                                             (
+                                            6
+                                            )
                       </LinkStub>
-                    </ListContent>,
+</ListContent>,
                   ],
                 },
                 "ref": null,
@@ -1014,12 +1014,12 @@ ShallowWrapper {
                     "props": Object {
                       "children": <LinkStub
                         to="/blog/tags/tag03/"
-                      >
+>
                         tag03
                          (
                         6
                         )
-                      </LinkStub>,
+</LinkStub>,
                       "style": null,
                     },
                     "ref": null,

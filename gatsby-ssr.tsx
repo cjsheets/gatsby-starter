@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Provider } from 'react-redux';
 import { renderToString } from 'react-dom/server';
+import { Provider } from 'react-redux';
 
 import { store } from './src/store';
 

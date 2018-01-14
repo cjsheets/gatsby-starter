@@ -1,4 +1,4 @@
-import { assign } from 'lodash';
+import { get } from 'lodash';
 import { createStore } from 'redux';
 import { devToolsEnhancer } from 'redux-devtools-extension';
 
@@ -18,7 +18,7 @@ export const toggleSidebar = () => ({ type: TOGGLE_SIDEBAR });
 export const reducer = (state: IStoreState, action: IToggleSidebar): IStoreState => {
   switch (action.type) {
     case TOGGLE_SIDEBAR:
-      return assign({}, state, { isSidebarVisible: !state.isSidebarVisible });
+      return Object.assign({}, state, { isSidebarVisible: !state.isSidebarVisible });
     default:
       return state;
   }

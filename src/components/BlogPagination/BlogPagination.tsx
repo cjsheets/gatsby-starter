@@ -1,5 +1,5 @@
 import { GatsbyLinkProps } from 'gatsby-link';
-import { startsWith, times } from 'lodash';
+import { times } from 'lodash';
 import * as React from 'react';
 import { Menu } from 'semantic-ui-react';
 
@@ -11,7 +11,7 @@ interface IBlogPaginationProps extends React.HTMLProps<HTMLDivElement> {
 
 export default (props: IBlogPaginationProps) => {
   if (props.pageCount === 1) { return null; }
-  const activeItem = startsWith('/blog/page/', props.pathname)
+  const activeItem = props.pathname.startsWith('/blog/page/')
     ? props.pathname.split('/')[3]
     : '1';
 
